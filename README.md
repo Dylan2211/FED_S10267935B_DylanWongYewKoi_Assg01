@@ -13,6 +13,7 @@ Audience:
 Fans and potential customers interested in learning about the band and buying merchandise
 
 How to access: [This github page](https://github.com/Dylan2211/FED_S10267935B_DylanWongYewKoi_Assg01.git)
+or : https://github.com/Dylan2211/FED_S10267935B_DylanWongYewKoi_Assg01
 
 Attributions: 
 Many Bocchi band images : https://alphacoders.com/bocchi-the-rock-wallpapers
