@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kessoku Band History</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Dancing Script", cursive;
+        background-color: #ffec5f;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+      }
+
+      h3 {
+        font-family: "Sawarabi Mincho", serif;
+      }
+
+      /* Navbar Styling */
+      .navbar {
+        background-color: #333;
+        color: white;
+      }
+
+      .navbar__container {
+        align-items: right;
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 50px;
+      }
+
+      @media screen and (max-width: 960px) {
+        .navbar__container {
+          display: flex;
+          justify-content: space-between;
+          height: 80px;
+          z-index: 1;
+          width: 100%;
+          max-width: 1300px;
+          padding: 0;
+        }
+
+        .navbar__container.active {
+          background-color: #ec7575;
+        }
+      }
+
+      .navbar__links {
+        color: white;
+        text-decoration: none;
+      }
+
+      .navbar__links:hover {
+        text-decoration: underline;
+      }
+
+      /* Main Section */
+      .main-container {
+        padding: 40px;
+      }
+
+      .band-history {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+      }
+
+      .band-history h1,
+      .band-history h2 {
+        text-align: center;
+      }
+
+      .member-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 40px;
+      }
+
+      .member-card {
+        text-align: center;
+        width: 250px;
+        margin: 10px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      .member-img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <a href="/index.html" class="navbar__links">Main Page</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/merchandise.html" class="navbar__links">Merchandise</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="/history.html" class="navbar__links">History</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-container">
+      <div class="band-history">
+        <h1 style="font-family: 'Sawarabi Mincho', serif">
+          Kessoku Band History
+        </h1>
+        <p>
+          Welcome to the official history of Kessoku Band! Founded by a group of
+          talented musicians, Kessoku Band quickly became a rising star in the
+          music world. Here is a brief look at the band's history and its
+          members:
+        </p>
+
+        <h2>Band's History</h2>
+        <p>
+          Kessoku Band was formed when four members came together, each with a
+          unique musical background. The band’s formation was the result of a
+          shared passion for music and the desire to make their dreams come
+          true. Their first performance was an unforgettable experience, marking
+          the beginning of their rise to fame. From their humble beginnings to
+          their current status, Kessoku Band continues to inspire and entertain
+          fans all over the world.
+        </p>
+
+        <h2>Meet the Members</h2>
+        <div class="member-container">
+          <div class="member-card">
+            <img
+              src="images/History/Bocchi.jpg"
+              alt="Hitori Bocchi"
+              class="member-img"
+            />
+            <h3>Hitori "Bocchi" Gotou</h3>
+            <p>
+              Hitori, also known as Bocchi, is the band's lead guitarist. She is
+              a shy but determined young girl with a passion for playing the
+              guitar. Despite her social anxiety, Bocchi's skills as a musician
+              shine through, and she becomes the heart of Kessoku Band.
+            </p>
+          </div>
+
+          <div class="member-card">
+            <img
+              src="images/History/Ryo.jpg"
+              alt="Ryo Yamada"
+              class="member-img"
+            />
+            <h3>Ryo Yamada</h3>
+            <p>
+              Ryo is the band's talented bassist, known for her cool demeanor
+              and impressive playing style. She is the more confident but
+              introverted member of the group, bringing energy and excitement to
+              the band's performances.
+            </p>
+          </div>
+
+          <div class="member-card">
+            <img
+              src="images/History/Kita.jpg"
+              alt="Ikuyo Kita"
+              class="member-img"
+            />
+            <h3>Ikuyo Kita</h3>
+            <p>
+              Kita is the band's cheerful and energetic Singer and guitarist.
+              She is known for her positive attitude and ability to produce
+              melodic vocals for the band. Her enthusiasm for music and
+              friendship makes her an essential part of the band's dynamic.
+            </p>
+          </div>
+
+          <div class="member-card">
+            <img
+              src="images/History/Nijika.jpg"
+              alt="Arisa Iori"
+              class="member-img"
+            />
+            <h3>Nijika Ichiji</h3>
+            <p>
+              Nijika is the band's Drummer and provides the melodic backbone to
+              their sound. She's a lively and upbeat member, and her friendly
+              attitude makes the band's atmosphere welcoming for all.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Kessoku Band. All Rights Reserved.</p>
+    </footer>
+    <script src="History.js"></script>
+  </body>
+</html>
