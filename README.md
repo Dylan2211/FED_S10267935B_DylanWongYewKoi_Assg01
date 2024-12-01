@@ -28,5 +28,7 @@ Four differrent Ryo Yamadas: https://www.pinterest.com/pin/616922848989177625/
 Detailed Ryo Yamada : https://www.pinterest.com/pin/19281104650122699/
 
 Instructions:
+Download all files and use vs code
 Use Live server in Vs Code ( or download if not installed)
 Press Go Live while on index.html
+go live on Chrome
